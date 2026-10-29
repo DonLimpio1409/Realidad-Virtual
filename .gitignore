@@ -73,3 +73,17 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# === UNREAL ENGINE IGNORE ===
+
+# No subir archivos generados automáticamente
+[Bb]inaries/
+[Bb]uild/
+[Dd]erivedDataCache/
+[Ii]ntermediate/
+[Ss]aved/
+
+# Ignorar cachés específicos
+**/Intermediate/**
+**/Saved/**
+**/DerivedDataCache/**
